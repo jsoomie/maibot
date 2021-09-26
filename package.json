@@ -1,0 +1,11 @@
+{
+  "name": "maibot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jsoomie/maibot.git",
+  "author": "Jonathan Soukaseume <jsoomie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
