@@ -13,3 +13,4 @@ But stay tuned for the future! See what's in store!
 ___
 ### 9/21 
 0 - Created change log! (updating...)
+1 - Refactored some codes to shorten user and guild interactions. Will move to a handler file next.
