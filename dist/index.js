@@ -28,7 +28,7 @@ client.on("interactionCreate", (interaction) => __awaiter(void 0, void 0, void 0
             yield interaction.reply(`Server name: ${(_a = interaction.guild) === null || _a === void 0 ? void 0 : _a.name}\nTotal members: ${(_b = interaction.guild) === null || _b === void 0 ? void 0 : _b.memberCount}`);
             break;
         case "user":
-            yield interaction.reply("user info");
+            yield interaction.reply(`Your tag: ${interaction.user.tag}\nYour id: ${interaction.user.id}`);
             break;
         default:
             break;

@@ -20,7 +20,9 @@ client.on("interactionCreate", async (interaction) => {
       );
       break;
     case "user":
-      await interaction.reply("user info");
+      await interaction.reply(
+        `Your tag: ${interaction.user.tag}\nYour id: ${interaction.user.id}`
+      );
       break;
     default:
       break;
